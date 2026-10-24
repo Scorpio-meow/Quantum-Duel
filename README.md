@@ -12,7 +12,7 @@
 
 ### 系統要求
 
-- Python 3.6 或以上版本。
+- Python 3.7 或以上版本。
 
 ### 執行步驟
 
@@ -80,6 +80,17 @@
   - [resolve](./Quantum%20Duel.py#L26-L64)：計算並結算每回合雙方的行動，更新角色狀態並返回戰鬥日誌。
   - [ai_move](./Quantum%20Duel.py#L67-L78)：根據當前局勢動態計算權重，決定 AI 的下一步行動。
   - [main](./Quantum%20Duel.py#L98-L134)：遊戲主迴圈，負責初始化、讀取玩家輸入、呼叫結算與判定勝負。
+
+---
+
+## 參與貢獻
+
+歡迎提交 Issue 或 Pull Request！開始之前請先閱讀：
+
+- [貢獻指南](./CONTRIBUTING.md)：開發環境、Commit 規範與 Pull Request 流程
+- [行為準則](./CODE_OF_CONDUCT.md)：參與社群的互動規範
+- [安全性政策](./SECURITY.md)：如何私下回報安全性漏洞
+- [無障礙聲明](./ACCESSIBILITY.md)：支援環境、已知限制與回報管道
 
 ---
 
